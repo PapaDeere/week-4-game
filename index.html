@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	
 	<!-- JQuery -->
-	<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 
 </head>
 <body>
@@ -39,15 +39,15 @@
 				<div class="row">
 					<div class="col-lg-3">
 						<div class="computerNumber">
-							<p>GG</p>							
+							<p id="compNum">GG</p>							
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-lg-2">
 							<div class="winsLosses">
 								<ul>
-									<li>Wins</li>
-									<li>Losses</li>
+									<li>Wins: <span id="wins"></span></li>
+									<li>Losses: <span id="losses"></span></li>
 								</ul>
 							</div>
 						</div>
@@ -56,11 +56,6 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="xtals">
-								<img src="assets/images/redXtal.jpg">
-								<img src="assets/images/goldXtal.jpg">
-								<img src="assets/images/greenXtal.jpg">
-								<img src="assets/images/blueXtal.jpg">
-
 							</div>
 						</div>
 					</div>
@@ -68,7 +63,7 @@
 					<div class="row">
 						<div class="col-lg-3">
 							<div class="score">
-								<p> Your total score is</p>
+								<p> Your total score is</p> 
 							</div>
 						</div>
 					</div>
@@ -76,6 +71,7 @@
 					<div class="row">
 						<div class="col-lg-3">
 							<div class="computerNumber">
+								<div id="userScore"></div>
 							</div>
 						</div>
 					</div>					
@@ -83,6 +79,6 @@
 			</div>
 		</div>
 		
-
+		<script src="./assets/javascript/game.js"></script>
 		</body>
-		</html>
+	</html>
