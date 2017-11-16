@@ -39,6 +39,14 @@ body, html{
 
 }
 
+.score {
+	color: white;
+	background-color: #B07550;
+	font-size: 24px;
+	height: 36px;
+
+}
+
 img {
     width: 120px;
     height: 120px;
