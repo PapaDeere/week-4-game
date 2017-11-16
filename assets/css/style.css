@@ -16,3 +16,30 @@ body, html{
 .jumbotron h1 {
 	color: white;
 }
+
+.rules {
+	color: #6D2817;
+	background-color: #DEAC67;
+	font-size: 24px;
+}
+
+.computerNumber {
+	color: #333333;
+	background-color: #B07550;
+	font-size: 48px;
+	height: 160px;
+
+}
+
+.winsLosses {
+	color: #333333;
+	background-color: #EBB873;
+	font-size: 24px;
+	height: 160px;
+
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
