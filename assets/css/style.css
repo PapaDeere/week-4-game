@@ -32,21 +32,24 @@ p {
     color: #333333;
     background-color: #B07550;
     font-size: 48px;
-    height: 160px;
+    height: 100px;
+    text-align: center;
 }
 
 .winsLosses {
     color: #333333;
     background-color: #EBB873;
     font-size: 24px;
-    height: 160px;
+    height: 100px;
 }
 
 .score {
     color: white;
     background-color: #B07550;
     font-size: 24px;
-    height: 36px;
+    height: 60px;
+    text-align: center;
+    padding: 2px 5px 2px 5px;
 }
 
 img {
