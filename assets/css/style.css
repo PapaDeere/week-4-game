@@ -1,50 +1,52 @@
 body {
-    background-image: url(../images/sandstone.jpg); 
+    background-image: url(../images/sandstone.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-body, html{
-	height: 100%;
+body,
+html {
+    height: 100%;
 }
 
 .jumbotron {
 
-	background-color: #A2431B;
+    background-color: #A2431B;
 }
 
 .jumbotron h1 {
-	color: white;
+    color: white;
+}
+
+p {
+    padding: 20px;
 }
 
 .rules {
-	color: #6D2817;
-	background-color: #DEAC67;
-	font-size: 24px;
+    color: #6D2817;
+    background-color: #DEAC67;
+    font-size: 24px;
 }
 
 .computerNumber {
-	color: #333333;
-	background-color: #B07550;
-	font-size: 48px;
-	height: 160px;
-
+    color: #333333;
+    background-color: #B07550;
+    font-size: 48px;
+    height: 160px;
 }
 
 .winsLosses {
-	color: #333333;
-	background-color: #EBB873;
-	font-size: 24px;
-	height: 160px;
-
+    color: #333333;
+    background-color: #EBB873;
+    font-size: 24px;
+    height: 160px;
 }
 
 .score {
-	color: white;
-	background-color: #B07550;
-	font-size: 24px;
-	height: 36px;
-
+    color: white;
+    background-color: #B07550;
+    font-size: 24px;
+    height: 36px;
 }
 
 img {
