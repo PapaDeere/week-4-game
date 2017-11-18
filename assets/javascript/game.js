@@ -64,7 +64,7 @@ $(".xtals").on("click", "#crystal", function(){
         startGame()
     }
 })
-
+        //starts the game
 function startGame () {
     userScore = 0;
     userScoreDOM.html(userScore)
